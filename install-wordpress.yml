@@ -8,6 +8,6 @@
     wp_mysql_password: 'mysql_pass'
     wp_admin_email: 'admin@example.com'
     wp_sitename: example.com
-    wp_install_dir: "/var/www/example.com"
+    wp_install_dir: "/var/www/html"
   roles:
     - wordpress
