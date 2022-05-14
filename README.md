@@ -4,7 +4,7 @@
 
 `cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys`
 
-## Setup Ansible:
+### Setup Ansible:
 
 `sudo apt-get install -f`
 
@@ -16,9 +16,13 @@
 
 `sudo apt-get install ansible -y`
 
+### Clone the code repository
+
 `cd ~`
 
 `git clone https://github.com/mmdeniz/Wordpress.git`
+
+### Run the Ansible Playbook
 
 `cd Wordpress`
 
