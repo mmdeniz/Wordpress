@@ -6,8 +6,8 @@
     wp_mysql_db: 'database'
     wp_mysql_user: 'mysql_user'
     wp_mysql_password: 'mysql_pass'
-    wp_admin_email: 'admin@example.com'
+    wp_admin_email: 'admin@deniz.com'
     wp_sitename: deniz.com
-    wp_install_dir: "/var/www/html"
+    wp_install_dir: "/var/www/deniz.com"
   roles:
     - wordpress
