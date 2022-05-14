@@ -10,7 +10,7 @@ Create ssh keys, add them to the authorized keys, install ansible, clone the git
 
 ### Create SSH keys and authorize them on the clint computer(s)`
 
-ssh-keygen`
+`ssh-keygen`
 
 `cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys`
 
