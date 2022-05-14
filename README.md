@@ -1,6 +1,8 @@
 # Deploy Wordpress with Ansible on Ubuntu 20.04 LTS
 
-`ssh-keygen`
+### Create SSH keys and authorize them on the clint computer(s)`
+
+ssh-keygen`
 
 `cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys`
 
