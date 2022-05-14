@@ -1,5 +1,13 @@
 # Deploy Wordpress with Ansible on Ubuntu 20.04 LTS
 
+### Steps to follow:
+
+Lunch an EC2 instance on AWS with Ubuntu 20.04 LTS on it
+
+Connect to the instance via ssh client
+
+Create ssh keys, add them to the authorized keys, install ansible, clone the github repository and run the Ansible playbook with following the commands below:
+
 ### Create SSH keys and authorize them on the clint computer(s)`
 
 ssh-keygen`
