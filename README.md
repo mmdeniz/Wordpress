@@ -20,4 +20,6 @@ cd ~
 
 git clone https://github.com/mmdeniz/Wordpress.git
 
+cd Wordpress
+
 ansible-playbook -i hosts install-wordpress.yml -vv
