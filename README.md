@@ -1,25 +1,25 @@
-# Wordpress
+# Deploy Wordpress with Ansible on Ubuntu 20.04 LTS
 
-ssh-keygen
+`ssh-keygen`
 
-cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+`cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys`
 
-Setup Ansible:
+## Setup Ansible:
 
-sudo apt-get install -f
+`sudo apt-get install -f`
 
-sudo apt-get install software-properties-common -y
+`sudo apt-get install software-properties-common -y`
 
-sudo apt-add-repository ppa:ansible/ansible -y
+`sudo apt-add-repository ppa:ansible/ansible -y`
 
-sudo apt-get update
+`sudo apt-get update`
 
-sudo apt-get install ansible -y
+`sudo apt-get install ansible -y`
 
-cd ~
+`cd ~`
 
-git clone https://github.com/mmdeniz/Wordpress.git
+`git clone https://github.com/mmdeniz/Wordpress.git`
 
-cd Wordpress
+`cd Wordpress`
 
-ansible-playbook -i hosts install-wordpress.yml -vv
+`ansible-playbook -i hosts install-wordpress.yml -vv`
