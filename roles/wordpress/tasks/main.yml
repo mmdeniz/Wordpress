@@ -114,7 +114,22 @@
     password: "{{ wp_mysql_password }}"
     priv: '*.*:ALL'
     login_unix_socket: /var/run/mysqld/mysqld.sock
+
+- name: Remove default nginx web directory
+  file:
+    path: "/var/www/html/"
+    state: absent
+
+- name: Remove default available sites directory
+  file:
+    path: "/etc/nginx/sites-available/default"
+    state: absent
     
+- name: Remove default enabled sites directory
+  file:
+    path: "/etc/nginx/sites-enabled/default"
+    state: absent
+
 - name: Restart service nginx
   service:
     name: "nginx"
